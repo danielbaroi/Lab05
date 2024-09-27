@@ -9,10 +9,10 @@ import Foundation
 
 
 class KnightPlayer {
-    // Knight model instance
+    
     var knight: Knight
 
-    // Initializer
+   
     init() {
         self.knight = Knight(hitPoints: 50, armorMaterial: "❤️", armorHitPoints: 100)
     }
